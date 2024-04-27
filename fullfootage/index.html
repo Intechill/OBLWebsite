@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+  <title>Onehit Baseball League | Games</title>
+  <link rel="icon" href="/OBLLogo.ico" type="image/x-icon" />
+  <script src="particles.js"></script>
+  <script src="particlesloader.js"></script>
+  <link href="indexco.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+
+
+
+  <style>
+    .topline {
+      border-bottom: 45px solid rgb(0, 0, 0);
+      width: 102.98vw;
+      position: absolute;
+      left: -40px;
+      top: -3px;
+    }
+
+    .rearline {
+      border-bottom: 28.5px solid rgb(0, 0, 0);
+      width: 15vw;
+      position: absolute;
+      left: -4px;
+      top: 20px;
+      border-radius: 45px;
+    }
+
+
+    .standingsframe {
+      border-bottom: 500px solid rgb(0, 0, 0);
+      width: 500px;
+      position: absolute;
+      top: 100px;
+      left: 35vw;
+    }
+
+    .blogframe {
+      border-bottom: 125px solid rgb(0, 0, 0);
+      width: 125px;
+      position: absolute;
+      top: 100px;
+      left: 535px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="topline"></div>
+  <div class="bottomline"></div>
+  <div class="rearline"></div>
+
+
+  <p class="TopOfLineElement">
+    <strong>OBL</strong>
+  </p>
+
+
+
+<!-- 
+  <p class="LukeOatesStats">
+    <strong>2. Luke Oates | 0-0 | AVG 0.0</strong>
+  </p>
+-->
+<!-- 
+  <p class="CarsonBrownStats">
+    <strong>3. Carson Brown | 0-0 | AVG 0.0</strong>
+  </p>
+-->
+
+  <p class="SecondEle">
+    <strong>Onehit Baseball League</strong>
+  </p>
+
+
+  <div id="particles-js"></div>
+  <button class="DownloadButton" type="button"
+    onclick="window.location.href='/';" ;>Home</button>
+
+
+  <script>
+    window.onload = function () {
+      var element = document.getElementById("particles-js");
+      element.style.opacity = 1;
+      (function fade() {(element.style.opacity -= .1) < 0 ? element.style.display = "none" : setTimeout(fade, 120)})();
+    }
+  </script>
+
+</body>
+
+</html>
